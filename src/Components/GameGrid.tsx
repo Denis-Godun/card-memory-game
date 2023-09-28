@@ -1,11 +1,10 @@
 
 import { cardConvert, gameLevels } from '../mocks';
 import s from "./GameGrid.module.css"
-import React from 'react'
 
 const GameGrid = () => {
-  return (
-    <div className={s.game}>
+    return (
+        <div className={s.game}>
             {gameLevels.map((level, levelIndex) => (
                 <div key={levelIndex} className={s.level}>
                     {level.cells.map((row, rowIndex) => (
@@ -20,7 +19,7 @@ const GameGrid = () => {
                 </div>
             ))}
         </div>
-  )
+    )
 }
 
 export default GameGrid
