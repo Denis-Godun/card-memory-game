@@ -1,17 +1,16 @@
 .level {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
 }
 .row {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .cell {
-   font-size: 100px;
-   margin: 10px;
-    width: 150px;
-    height: 150px;
-    border: 3px solid black;
-   text-align: center;
+  font-size: 100px;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  text-align: center;
 }
