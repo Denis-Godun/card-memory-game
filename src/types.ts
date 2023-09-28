@@ -1,12 +1,12 @@
 export enum IconName {
-  React = "react",
-  Opera = "opera",
-  GitHub = "github",
-  Cloud = "cloud",
-  Sun = "sun",
-  Clock = "clock",
-  Moon = "moon",
-  Chrome = "chrome",
+  React = 'react',
+  Opera = 'opera',
+  GitHub = 'github',
+  Cloud = 'cloud',
+  Sun = 'sun',
+  Clock = 'clock',
+  Moon = 'moon',
+  Chrome = 'chrome',
 }
 
 type GameLevelCard = {
