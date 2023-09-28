@@ -1,16 +1,23 @@
 .level {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+
 .row {
   display: flex;
+  align-items: center;
   justify-content: center;
+  gap: 10px;
 }
+
 .cell {
   font-size: 100px;
-  margin: 10px;
+  border-radius: 12px;
   width: 150px;
   height: 150px;
   border: 3px solid black;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
