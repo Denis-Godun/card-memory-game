@@ -1,14 +1,8 @@
-
-import './App.css'
+import './App.css';
 import GameGrid from './Components/GameGrid';
 
-
-
 function App() {
-
-  return (
-    <GameGrid />
-  )
+  return <GameGrid />;
 }
 
-export default App
+export default App;
